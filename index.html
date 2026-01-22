@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Super Stock</title>
+    </head>
+
+    <style>
+        
+        body {
+            background-color: #dadada;
+        }
+        body * {
+            color: #585656;
+        }
+        .title {
+            color: #222222;
+        }
+        
+    </style>
+    <body>
+        <header>
+            <h2 id="app_name" class="title">Super Stock</h2>
+        </header>
+        <div>
+            <h2 class="title">Bonjour</h2>
+            <h2>Tout</h2>
+            <h2 class="title">Le monde</h2>
+            <p>Voici mon super site</p>
+            <a id="button">Cliquez ici</a>
+        </div>
+        <div style="height: 1024px;"></div>
+        <p id="anchor">
+            Mon ancre
+        </p>
+        <div style="height: 90vh;"></div>
+        <script>
+            // Quoi : le bouton et une alert
+            // Quand : Au clique
+            // Comment : Afficher le message dans l'alerte
+            const boutton = document.getElementById("button");
+            button.addEventListener("click", function(event) {
+                event.preventDefault();
+                alert("Le bouton a été cliqué !")
+            })
+        </script>
+    </body>
+
+</html>
